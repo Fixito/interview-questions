@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Web</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- JS -->
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-center">
+        <img src="./logo.png" class="logo" alt="logo de forEach Academy" />
+      </nav>
+    </header>
+
+    <section class="section">
+      <form class="form">
+        <h4>se connecter</h4>
+        <div class="form-row">
+          <label for="email" class="form-label">adresse mail</label>
+          <input type="email" name="email" id="email" class="form-input" />
+          <small class="form-alert"></small>
+        </div>
+        <div class="form-row">
+          <label for="password" class="form-label">mot de passe</label>
+          <input
+            type="passwrd"
+            name="password"
+            id="password"
+            class="form-input" />
+          <small class="form-alert"></small>
+        </div>
+        <button class="btn btn-block" type="submit">se connecter</button>
+        <a href="#">Mot de passe oublié ?</a>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-center">
+        <ul class="nav-links">
+          <li>
+            <a href="#">condition d'utilisation</a>
+          </li>
+          <li>
+            <a href="#">politique de confidentialité</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
